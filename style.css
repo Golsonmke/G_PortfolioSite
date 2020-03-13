@@ -1,2 +1,13 @@
+.body-index {
+    background-image: url(external-content.duckduckgo.jpg)
+}
+ h1,h3,a{
+   color: ghostwhite;
+ }  
 
-            
+.box1{
+  font-size: 18px;
+}
+.id{
+  top: 0cm;
+}
