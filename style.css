@@ -1,41 +1,91 @@
 .body-index {
     background-image: url(external-content.duckduckgo.jpg)
-    
-  
 }
-.header{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-style: normal;
-  color: greenyellow;
-  size: 50px;
-  text-align: center;
+.body-index{
+  background-size: cover;
 }
-body{
-  background-color: rgb(255, 255, 255);
-}
-
-
-
-.nav{
+.header-index{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: italic;
-  font-size: 29px;
-  color: #8b3955;
+  color: #ddebca;
+  size: 140px;
+  text-align: center;
+}
+.nav-index {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; 
+  width: 100%; 
+}
+.nav-index a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: floralwhite;
+}
+.nav-index a:hover {
+  background: #a4acb6;
+  color: #200bdd;
+}
+.main-index {
+  margin-top: 20px; 
+}
+
+
+
+.nav-index{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  position: relative;
+  color: #f7efef;
   }
-  p{
+  .footer-index{
+    
+  margin-bottom: 24px;
+  overflow: hidden;
+  position: fixed; 
+  bottom: 0; 
+  width: 100%; 
+}
+  
+  
+  .p1-about{
+    
     font-style: italic;
     font-size: 20px; 
     text-shadow: #1138a5;
 
   }
   li{
-    text-emphasis-color: ;
+    text-emphasis-color: blue;
     list-style-type: square;
-    color: steelblue;
+    color: rgb(62, 110, 158);
 
+  } 
+  nav{
+    background-color: cadetblue;
+    position: sticky;
+    scroll-padding-top: 100;
+  } 
+  .box1-about{
+    background-color: blanchedalmond;
   }
-  a[href]{
-    color: #517ae9;
+  .box2-about{
+    background-color: rgb(166, 216, 218);
+    
   }
-
-
+  .box3-about{
+    background-color: blanchedalmond;
+  }
+  body{
+    background-color: #ffffff;
+  }
+  header{
+    color: rgb(110, 165, 228);
+    font-size: 30px;
+  }
+  
