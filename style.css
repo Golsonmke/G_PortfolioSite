@@ -1,13 +1,41 @@
 .body-index {
     background-image: url(external-content.duckduckgo.jpg)
+    
+  
 }
- h1,h3,a{
-   color: ghostwhite;
- }  
+.header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  color: greenyellow;
+  size: 50px;
+  text-align: center;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
 
-.box1{
-  font-size: 18px;
-}
-.id{
-  top: 0cm;
-}
+
+
+.nav{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-size: 29px;
+  color: #8b3955;
+  }
+  p{
+    font-style: italic;
+    font-size: 20px; 
+    text-shadow: #1138a5;
+
+  }
+  li{
+    text-emphasis-color: ;
+    list-style-type: square;
+    color: steelblue;
+
+  }
+  a[href]{
+    color: #517ae9;
+  }
+
+
