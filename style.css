@@ -14,7 +14,7 @@
 .nav-index {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
+  position: fixed; 
   top: 0; 
   width: 100%; 
 }
@@ -66,11 +66,12 @@
     color: rgb(62, 110, 158);
 
   } 
-  nav{
+  .nav-about {
     background-color: cadetblue;
     position: sticky;
     scroll-padding-top: 100;
   } 
+  
   .box1-about{
     background-color: blanchedalmond;
   }
@@ -81,11 +82,61 @@
   .box3-about{
     background-color: blanchedalmond;
   }
-  body{
-    background-color: #ffffff;
+  .body-project{
+    background-color: blanchedalmond;
   }
-  header{
-    color: rgb(110, 165, 228);
-    font-size: 30px;
+
+  
+  
+  .nav-about {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
   }
+  .nav-about a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: floralwhite;
+  }
+  .nav-about a:hover {
+    background: #a4acb6;
+    color: #200bdd;
+  }
+  .main-about {
+    margin-top: 20px; 
+  }
+  .nav-project {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+  }
+  .nav-project a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: floralwhite;
+  }
+  .nav-project a:hover {
+    background: #a4acb6;
+    color: #200bdd;
+  }
+  .main-project {
+    margin-top: 20px; 
+  }
+  .header-project{
+    background-color: cadetblue;
+    max-width: 100%;
+    grid-row-start: 2;
+
+  }
+
   
