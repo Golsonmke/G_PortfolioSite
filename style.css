@@ -129,13 +129,16 @@
     background: #a4acb6;
     color: #200bdd;
   }
-  .main-project {
-    margin-top: 20px; 
-  }
+  
   .header-project{
     background-color: cadetblue;
-    max-width: 100%;
-    grid-row-start: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    color: #cadeeb;
+    size: 140px;
+    text-align: center;
+    align-items: flex-start;
+   
 
   }
 
