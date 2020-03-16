@@ -29,14 +29,14 @@
 .nav-index a:hover {
   background: #a4acb6;
   color: #200bdd;
-}
+ }
 .main-index {
   margin-top: 20px; 
-}
+ }
 
 
 
-.nav-index{
+ .nav-index{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-style: italic;
   font-size: 36px;
@@ -50,10 +50,10 @@
   position: fixed; 
   bottom: 0; 
   width: 100%; 
-}
+ }
   
   
-  .p1-about{
+   .p1-about{
     
     font-style: italic;
     font-size: 20px; 
@@ -137,9 +137,6 @@
     color: #cadeeb;
     size: 140px;
     text-align: center;
-    cas
-   
-
+    
   }
 
-  
